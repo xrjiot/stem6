@@ -1,0 +1,22 @@
+{
+    "name": "stem6",
+    "version": "0.0.0",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "README.md",
+        "namespace.ts",
+        "README.md",
+        "infrared.ts",
+        "pwm.ts",
+        "_locales/de/MakerBit-IR-Receiver-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": false,
+    "license": "TIM"
+}gi
