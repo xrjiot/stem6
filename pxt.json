@@ -1,7 +1,7 @@
 {
     "name": "stem6",
     "version": "0.0.2",
-    "description": "",
+    "description": "stem6",
     "dependencies": {
         "core": "*",
         "radio": "*"
@@ -17,6 +17,6 @@
     "testFiles": [
         "test.ts"
     ],
-    "public": false,
+    "public": true,
     "license": "TIM"
 }
