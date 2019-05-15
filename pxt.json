@@ -1,6 +1,6 @@
 {
     "name": "stem6",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "思特牛S1套件扩展包，包含：遥控器模块，彩灯模块和电机模块",
     "dependencies": {
         "core": "*",
