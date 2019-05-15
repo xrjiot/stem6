@@ -7,7 +7,6 @@
         "radio": "*"
     },
     "files": [
-        "README.md",
         "namespace.ts",
         "README.md",
         "infrared.ts",
