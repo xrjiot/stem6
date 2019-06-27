@@ -251,11 +251,11 @@ namespace makerbit {
         let value = pulse * 4096 / 20000;    
         if (Dir == MOTOR_Dir.前进) 
         {
-            setPwm((ID), 0, 0);        
+            setPwm((ID+MOTOR_Dir.后退), 0, 0);        
         }   
         else
         {
-            setPwm((ID+1), 0, 0); 
+            setPwm((ID+ID+MOTOR_Dir.前进), 0, 0); 
         }
 
         setPwm((ID+Dir), 0, value);
